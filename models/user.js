@@ -8,10 +8,6 @@ const userSchema = mongoose.Schema(
       maxlength: 32,
       trim: true,
     },
-    rooms: {
-      type: Array,
-      default: [] 
-    }
   },
 
   { timestamps: true }
